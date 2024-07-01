@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "count-min-sketch"
+version = "0.1.0"
+description = "Implementation of Count-Min Sketch algorithm."
+authors = ["Dr. Nobel Khandaker <nobel@outlook.com>"]
+readme = "README.md"
+packages = [{include = "count_min_sketch", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
