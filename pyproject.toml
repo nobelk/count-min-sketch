@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "count-min-sketch"
-version = "0.1.0"
+version = "0.1.1"
 description = "Implementation of Count-Min Sketch algorithm."
 authors = ["Dr. Nobel Khandaker <nobel@outlook.com>"]
 readme = "README.md"
