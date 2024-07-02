@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "count_min_sketch", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 pytest = "^8.2.2"
 
 
