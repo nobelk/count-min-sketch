@@ -1,4 +1,3 @@
-import pytest
 from src.count_min_sketch.cms import CMS
 from src.count_min_sketch.cms import Item
 
@@ -13,8 +12,7 @@ class Flower(Item):
 
 def test_cms_default():
     cms = CMS(100)
-    data = ["daisy", "rose", "flora", "iris", "lily", "daisy", "rose", "flora", "iris", "lily", "daisy", "rose",
-            "flora", "iris"]
+    data = ["daisy", "rose", "flora", "iris", "lily", "daisy", "rose", "flora", "iris", "lily", "daisy", "rose", "flora", "iris"]
     for item_name in data:
         flower = Flower(item_name)
         cms.update(flower)

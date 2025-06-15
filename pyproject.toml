@@ -9,6 +9,7 @@ packages = [{include = "count_min_sketch", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pytest = "^8.2.2"
+flake8 = "^7.2.0"
 
 
 [build-system]

@@ -13,7 +13,6 @@ class CMS:
             self._hash_functions = [hashlib.sha256, hashlib.shake_256, hashlib.blake2b]
         self._matrix = [[0 for _ in range(self._cols)] for _ in range(len(self._hash_functions))]
 
-
     def update(self, item: Item) -> None:
         for i, hash_function in enumerate(self._hash_functions):
             hash_value = self._get_int_hash_value(hash_function, item)

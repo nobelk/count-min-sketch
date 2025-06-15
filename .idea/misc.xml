@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Poetry (count-min-sketch)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Poetry (count-min-sketch)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (count-min-sketch)" project-jdk-type="Python SDK" />
 </project>
